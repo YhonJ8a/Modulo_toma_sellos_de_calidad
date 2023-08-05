@@ -1,0 +1,42 @@
+# Logs
+logs
+*.log
+
+# Node Modules
+node_modules/
+
+# Build
+/build
+
+# Dependency directories
+/.pnp
+.pnp.js
+
+# Environment Variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+
+# Editor-specific files
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Thumbnails
+Thumbs.db
+
+# Cache and Compiled Files
+*.cache/
+*.dist/
+*.compiled/
+
+# Temporary Files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

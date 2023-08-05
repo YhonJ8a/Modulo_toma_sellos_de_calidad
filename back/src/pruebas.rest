@@ -1,0 +1,54 @@
+GET http://localhost:3030/pisos/selec
+
+
+
+###
+
+GET http://localhost:3030/pisos/create
+
+
+###
+POST http://localhost:3030/pisos/new
+Content-Type: application/json
+
+{
+    "NoPiso": 1 ,
+    "selecto": false
+}
+
+/*
+"descEtapaProyecto": "TORRE 01" , 
+"hc": "01", 
+"hcFace": "MEDIA",
+"noInmuebles": 2, 
+"noAscensores": 2,
+"noSotanos": 2,
+"noSemisotanos": 2,
+"noIntermedios": 2,
+"primeNivelVivienda": 2,
+"ultimoNivelVivienda": 2,
+"nivelesSuperiores": 2, 
+"areaPromedio": 2,
+"activo": 2,
+*/
+
+
+//idProyecto,noPiso, idSello, IdContratista , IdAgrupacion
+
+
+###
+POST http://localhost:3030/unidadesTSello/new
+Content-Type: application/json
+
+{
+    "idProyecto": 9,
+    "noPiso": 9,
+    "idSello": 9,
+    "IdContratista": 2,
+    "IdAgrupacion": 2
+}
+
+
+###
+PUT http://localhost:3030/pisos/update/3
+Content-Type: application/json

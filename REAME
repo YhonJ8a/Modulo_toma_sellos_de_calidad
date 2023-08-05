@@ -1,0 +1,5 @@
+CREAR BASE DE DATOS DE NOMBRE "bd_scalidad"
+TABLAS SE CREAN EN AUTOMATICO
+
+CORRER BACK "\back>nodemon .\src\index.js"
+CORRER FRONT "front\products-react> npm start "
