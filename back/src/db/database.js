@@ -1,8 +1,8 @@
 const { Sequelize } = require('sequelize');
 
 const db = new Sequelize('bd_scalidad', 'root', '', {
-  host: 'localhost',
-  dialect: 'mysql',
+    host: 'localhost',
+    dialect: 'mysql',
 });
 
 

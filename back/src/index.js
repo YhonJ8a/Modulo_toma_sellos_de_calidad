@@ -21,7 +21,7 @@ app.use(cors());//habilta para nueVas solicitudes a la app
         console.log("BASE DE DATOS CONECTADA");
         await db.sync();
     }catch(err){
-        console.log("ERROR AL CONECTARCE A LA BASE DE DATOS CONECTADA");
+        console.log("ERROR AL CONECTARCE A LA BASE DE DATOS");
         throw new Error(err);
     }
 })()
